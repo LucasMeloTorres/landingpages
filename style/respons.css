@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 500px){
+    .menu{
+        display: block;
+        text-align: center;
+    }
+
+    .texto01{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .texto02{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .texto p{
+        text-align: center;
+        width: 100%;
+    }
+
+    header{
+        flex-direction: column;
+    }
+    
+    section{
+    flex-direction: column;
+    }
+
+    .img{
+        width: 350px;
+        }
+    }
+
+    .bts{
+        width:100%;
+        margin: 20px auto;
+    }
+    .btsenviar{
+        margin: 20px auto;
+    }

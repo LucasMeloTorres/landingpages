@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+/*PACK FONTES*/
+@font-face {
+    font-family: light;
+    src: url(/fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: bolde;
+    src: url(/fonts/Montserrat-SemiBold.ttf);
+}
+
+/*REZETE*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(54, 54, 54);
+    max-width: 1800px;
+}
+
+/*ESTILO CAIXA HEADER*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo h1{
+    display: flexbox;
+    font-family: light;
+    font-weight: normal;
+    color: white;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 10px 30px;
+}
+.logo h1:hover{
+    color: blueviolet;;
+    transition: 0.5s;
+}
+.logo a{
+    text-decoration: none;
+}
+
+/*ESTILO CAIXA NAV MENU*/
+.menu{
+    display: flex;
+}
+li{
+    list-style: none;  
+}
+.menu a{
+    text-decoration: none;
+    font-family: light;
+    font-size: 1.2rem;
+    color: white;
+    padding: 20px;
+}
+.menu a:hover{
+    color: blueviolet;;
+    transition: 0.5s;
+    border-bottom: 2px solid white;
+}
+
+/*ESTILO CAIXA SECTION*/
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0px 50px;
+}
+
+/*ESTILO TEXTOS H2-P*/
+text{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto01{
+    font-family: bolde;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 2.5rem;
+}
+.texto02{
+    font-family: light;
+    color: rgb(255, 255, 255);
+    font-size: 3.4rem;
+}
+.texto p{
+    font-family: light;
+    color: white;
+    width: 60%;
+    text-align: left;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+/*ESTILO IMPUT E BOTÃO*/
+.bts{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 25px;
+    font-family: light;
+}
+.btsenviar{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 25px;
+    font-family: bolde;
+    font-weight: normal;
+    color: white;
+    background-color: blueviolet;
+}
+.btsenviar:hover{
+    color: blueviolet;
+    background-color: white;
+    transition: 0.5s;
+}
+
+/*ESTILO IMAGEM*/
+
+.img{
+    width: 500px;
+}
