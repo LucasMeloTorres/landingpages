@@ -80,7 +80,7 @@ section{
 }
 
 /*ESTILO TEXTOS H2-P*/
-text{
+.texto{
     display: flex;
     flex-wrap: wrap;
 }
@@ -110,7 +110,7 @@ text{
     display: flex;
     padding: 10px;
     margin: 10px;
-    width: 50%;
+    width: 30%;
     border: none;
     border-radius: 25px;
     font-family: light;
@@ -136,5 +136,5 @@ text{
 /*ESTILO IMAGEM*/
 
 .img{
-    width: 500px;
+    width: 700px;
 }
